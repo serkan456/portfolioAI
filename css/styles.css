@@ -10,16 +10,16 @@
 
 body {
 
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #121212;
+    color: #f1f1f1;
     padding: 1rem;
 
 }
 
 header {
 
-    background: #222;
-    color: #fff;
+    background: #1e1e1e;
+    color: #f1f1f1;
     padding: 1rem;
 
 }
@@ -42,8 +42,14 @@ nav ul {
 
 nav a {
 
-    color: #fff;
+    color: #f1f1f1;
     text-decoration: none;
+
+}
+
+nav a:hover {
+
+    color: #00bcd4;
 
 }
 
@@ -58,7 +64,8 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
-    background: #eee;
+    background: #1e1e1e;
+    color: #aaa;
 
 }
 
@@ -74,9 +81,30 @@ footer {
 
 .card {
 
-    background: white;
+    background: #1e1e1e;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7)
+
+}
+
+.card a {
+
+    color: #00bcd4;
+    text-decoration: none;
+
+}
+
+.card a:hover {
+
+    text-decoration: underline;
 
 }
